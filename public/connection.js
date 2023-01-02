@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.db = void 0;
+exports["default"] = void 0;
 var mongoose = require("mongoose");
 
 // localhost:27017
@@ -13,4 +13,5 @@ mongoose.connect(uri, {})["catch"](function (err) {
   return console.log(err);
 });
 var db = mongoose.connection;
-exports.db = db;
+var _default = db;
+exports["default"] = _default;

@@ -2,12 +2,13 @@ require("@babel/polyfill");
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
-const { db } = require("./connection");
 require('dotenv').config()
-const config = require( "./config")
-const Auth = require("./routes/auth.routes")
-const Course = require("./routes/course.routes")
-const Student = require( "./routes/student.routes")
+import config from "./config";
+import  db  from "./connection";
+import Auth from "./routes/auth.routes";
+import Course from "./routes/course.routes";
+import Student from "./routes/student.routes";
+
  //settings
 app.set("port", process.env.PORT || 3000);
 //Middlewates
