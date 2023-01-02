@@ -3,13 +3,12 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const { db } = require("./connection");
-import * as dotenv from 'dotenv'
+require('dotenv').config()
 import config from "./config";
 import Auth from "./routes/auth.routes";
 import Course from "./routes/course.routes";
 import Student from "./routes/student.routes";
-dotenv.config()
-//settings
+ //settings
 app.set("port", process.env.PORT || 3000);
 //Middlewates
 app.use(express.json());
