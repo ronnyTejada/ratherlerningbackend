@@ -758,7 +758,7 @@
 
 "@babel/cli@^7.20.7":
   version "7.20.7"
-  resolved "https://registry.npmjs.org/@babel/cli/-/cli-7.20.7.tgz"
+  resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.20.7.tgz#8fc12e85c744a1a617680eacb488fab1fcd35b7c"
   integrity sha512-WylgcELHB66WwQqItxNILsMlaTd8/SO6SgTTjMp4uCI7P4QyH1r3nqgFmO3BfM4AtfniHgFMH3EpYFj/zynBkQ==
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.8"
@@ -786,7 +786,7 @@
 
 "@babel/core@^7.20.7":
   version "7.20.7"
-  resolved "https://registry.npmjs.org/@babel/core/-/core-7.20.7.tgz"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.20.7.tgz#37072f951bd4d28315445f66e0ec9f6ae0c8c35f"
   integrity sha512-t1ZjCluspe5DW24bn2Rr1CDb2v9rn/hROtg9a2tmd0+QYf4bsloYfLQzjG4qHPNMhWtKdGC33R5AxGR2Af2cBw==
   dependencies:
     "@ampproject/remapping" "^2.1.0"
@@ -1028,7 +1028,7 @@
 
 "@babel/node@^7.20.7":
   version "7.20.7"
-  resolved "https://registry.npmjs.org/@babel/node/-/node-7.20.7.tgz"
+  resolved "https://registry.yarnpkg.com/@babel/node/-/node-7.20.7.tgz#609be7f841893e24931b7910263babfde84040a9"
   integrity sha512-AQt3gVcP+fpFuoFn4FmIW/+5JovvEoA9og4Y1LrRw0pv3jkl4tujZMMy3X/3ugjLrEy3k1aNywo3JIl3g+jVXQ==
   dependencies:
     "@babel/register" "^7.18.9"
@@ -1554,7 +1554,7 @@
 
 "@babel/preset-env@^7.20.2":
   version "7.20.2"
-  resolved "https://registry.npmjs.org/@babel/preset-env/-/preset-env-7.20.2.tgz"
+  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.20.2.tgz#9b1642aa47bb9f43a86f9630011780dab7f86506"
   integrity sha512-1G0efQEWR1EHkKvKHqbG+IN/QdgwfByUpM5V5QroDzGV2t3S/WXNQd693cHiHTlCFMpr9B6FkPFXDA2lQcKoDg==
   dependencies:
     "@babel/compat-data" "^7.20.1"
