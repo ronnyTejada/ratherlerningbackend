@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir dist",
+    "build": "babel src --out-dir public",
     "dev": "nodemon src/index.js --exec babel-node",
-    "start": "nodes dist/index.js"
+    "start": "nodes public/index.js"
   },
   "author": "ronny",
   "license": "ISC",
