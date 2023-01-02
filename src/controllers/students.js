@@ -1,7 +1,7 @@
 import { addStudentToCourse } from "./course";
 
 require("../connection");
-const Student = require("../models/Student");
+const Student = require("../models/student");
 
 export const createStudent = async (student) => {
   let { name, email, age, id, courseId,gender,siblings } = student;

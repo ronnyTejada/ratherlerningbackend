@@ -1,5 +1,5 @@
 require("../connection");
-const Course = require("../models/Course");
+const Course = require("../models/course");
 
 export const createCourse = async (title, category, description, id) => {
   const course = new Course({

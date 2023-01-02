@@ -1,6 +1,6 @@
 require('../connection');
 
-const Admin = require('../models/Admin');
+const Admin = require('../models/admin');
 
 export const createAdmin=async()=>{
     const admin = new Admin({
