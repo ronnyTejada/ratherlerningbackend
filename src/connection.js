@@ -10,5 +10,7 @@ mongoose
   })
   .catch(err => console.log(err));
 
-export const db = mongoose.connection;
+const db = mongoose.connection;
+
+export default db
 
