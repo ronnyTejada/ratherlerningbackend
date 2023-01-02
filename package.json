@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "yarn add babel src --out-dir public",
+    "build": "babel src --out-dir public",
     "dev": "nodemon src/index.js --exec babel-node",
-    "start": "node src/index.js --exec babel-node"
+    "start": "node public/index.js"
   },
   "author": "ronny",
   "license": "ISC",
