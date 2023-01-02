@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
     "build": "babel src --out-dir public",
     "dev": "nodemon src/index.js --exec babel-node",

@@ -4,10 +4,10 @@ const app = express();
 const bodyParser = require("body-parser");
 const { db } = require("./connection");
 require('dotenv').config()
-import config from "./config";
-import Auth from "./routes/auth.routes";
-import Course from "./routes/course.routes";
-import Student from "./routes/student.routes";
+const config = require( "./config")
+const Auth = require("./routes/auth.routes")
+const Course = require("./routes/course.routes")
+const Student = require( "./routes/student.routes")
  //settings
 app.set("port", process.env.PORT || 3000);
 //Middlewates
